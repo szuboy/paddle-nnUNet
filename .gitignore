@@ -1,0 +1,13 @@
+
+# Sphinx documentation
+docs/en/build/
+docs/zh_CN/build/
+
+# Pycharm additions
+.idea/
+__pycache__/
+
+# Pypi release
+nnUNet-paddle.egg-info/
+build/
+dist/
