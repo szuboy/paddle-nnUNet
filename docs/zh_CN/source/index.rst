@@ -3,19 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to scikit-radiomics's documentation!
-======================================
+Welcome to paddle-nnUNet's documentation!
+=========================================
 
 .. toctree::
    :maxdepth: 2
-   :glob:
 
-   ./*
+   introduce_nnunet
+   introduce_paddlennunet
+   usage
+   error_translation
+   development_log
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
