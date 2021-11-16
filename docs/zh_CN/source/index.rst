@@ -1,4 +1,4 @@
-.. scikit-radiomics documentation master file, created by
+.. paddle-nnUNet documentation master file, created by
    sphinx-quickstart on Sat Jun  1 13:29:49 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -13,5 +13,6 @@ Welcome to paddle-nnUNet's documentation!
    introduce_paddlennunet
    usage
    error_translation
+   how_works
    development_log
 

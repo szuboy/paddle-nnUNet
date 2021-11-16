@@ -9,13 +9,13 @@ paddle-nnUNet 是将原来基于 pytorch 版本的 nnUnet 全部代码重写移�
 ## 安装
 我们有两种方法按照paddle-nnUNet:
 
-- **使用 PyPi 安装 paddle-nnUNet(推荐)**
+**1、使用 PyPi 安装 paddle-nnUNet(推荐)**
 
 ```
 pip install paddle-nnUNet
 ```
 
-- **使用 paddle-nnUNet 源码安装**
+**2、使用 paddle-nnUNet 源码安装**
 
 首先，使用 ```git``` 来克隆 paddle-nnUNet
 ```
