@@ -8,6 +8,6 @@ docs/zh_CN/build/
 __pycache__/
 
 # Pypi release
-nnUNet-paddle.egg-info/
+paddle_nnUNet.egg-info/
 build/
 dist/
