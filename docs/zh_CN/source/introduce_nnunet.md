@@ -15,65 +15,10 @@ nnUNet 框架下包含了数据预处理、网络框架设计、预测结果后�
 不同于自然图像，医学图像含有着许多特有的属性信息，如：模态（X-ray、CT、MRI）、体素大小（SpacingSize）、窗宽窗位（Window Width and Widow Level），
 nnUnet 基于图像的这些“**指纹**”来自动推理预处理和网络参数，而这恰恰就是 nnUNet 最迷人的一个重要点，其工作流程：
 
-![avatar](_static/images/nnUNet-workflow.jpg "图1.nnUNet的工作流程")
+![](_static/images/nnUNet-workflow.jpg "图1.nnUNet的工作流程")
 
 给定一个新的分割任务，nnUNet 会提取“数据集指纹”（粉红色）；进而，根据“数据指纹”启发式推断的数据相关“基于规则的参数”（绿色）；
 最后，根据预定义的“固定参数”（蓝色）来确定训练和测试策略，并确定是否需要后处理的“经验参数”（黄色），自动完成全流程操作！
-
-[comment]: <> (<hr>)
-
-[comment]: <> (## 流程参数)
-
-[comment]: <> (nnUNet 是一个相对臃肿的框架，自动化的流程中有着许多配置的参数，现在来看看每一类别（图像指纹、规则参数、固定参数、经验参数）的详细信息：)
-
-
-[comment]: <> (#### 图像指纹（Data fingerprint）)
-
-[comment]: <> (提取图像和感兴趣区域 ROI（Region of Interest，ROI）的描述值，建立图像指纹库，以使 nnUNet 在面对不同数据分割任务时，适应数据特有属性，尽可能地发挥出下游模型的最大性能：)
-
-[comment]: <> (- 体素大小的分布（Distribution of spacings）：)
-
-[comment]: <> (- ROI 形状的中值大小（Median shape）：)
-
-[comment]: <> (- ROI 体素的强度分布（Intensity distribution）:)
-
-[comment]: <> (- 图像的模态（Image modality）：)
-
-[comment]: <> (#### 规则参数（Rule-based parameters）)
-
-[comment]: <> (自适应是 nnUNet 的核心创新点，恰恰就是基于图像指纹参数启发式推理图像预处理和模型架构相关的的参数，让数据定义管道，使数据决定模型，即为规则参数：)
-
-[comment]: <> (- 标注采样策略（Annotation resampling strategy）：)
-
-[comment]: <> (- 图像采样策略（Image resampling strategy）：)
-
-[comment]: <> (- 图像采样的体素大小（Image target spacing）：)
-
-[comment]: <> (- 图像归一化策略（Intensity normalization）：)
-
-[comment]: <> (#### 固定参数（Fixed parameters）)
-
-[comment]: <> (nnUNet 流程内部预定义模型架构、模型学习策略、数据扩增方式等固定参数，自动地完成深度学习分割模型的训练测试，规则参数有：)
-
-[comment]: <> (- 网络结构模板（Architecture template）：)
-
-[comment]: <> (- 优化器（Optimizer）：)
-
-[comment]: <> (- 训练步骤（Training procedure）：)
-
-[comment]: <> (- 推理步骤（Inference procedure）：)
-
-[comment]: <> (- 学习率（Learning rate）：)
-
-[comment]: <> (- 数据扩增策略（Data augmentation）：)
-
-[comment]: <> (- 损失函数（Loss function）：)
-
-[comment]: <> (#### 经验参数（Empirical parameters）)
-
-[comment]: <> (经验参数主要使用在预测结果的后处理操作中，进一步优化网络模型预测结果...)
-
-[comment]: <> (- 待补充)
 
 **参考文献**
 
