@@ -16,7 +16,7 @@
 
 ## nnUNet
 
-UNet几乎是卷积神经网络在医学图像分割领域的基线模型，也出现了许多UNet的改进版本，如：V-Net，UNet++等。在所有改进和优化模型中，nnUNet作为是一种自适应框架，无疑是最成功的一个。nnUNet已经有[Pytorch版本](https://github.com/MIC-DKFZ/nnUNet) ，这是飞桨版本。
+UNet几乎是卷积神经网络在医学图像分割领域的基线模型，同样地出现了许多基于UNet的改进版本，比如：V-Net和UNet++。作为是一种自适应框架，nnUNet无疑是在所有改进和优化模型中最成功的一个。nnUNet已经有[Pytorch版本](https://github.com/MIC-DKFZ/nnUNet) ，而这是对应的飞桨版本。
 
 * **标准化基线**：nnU-Net是生物医学分割中第一个标准化的深度学习基准。在没有人工调参的情况下，研究人员可以在任意数量的数据集上将他们的算法与nnU-Net进行比较，为提出的改进提供有意义的证据。
 
@@ -25,9 +25,10 @@ UNet几乎是卷积神经网络在医学图像分割领域的基线模型，也�
 * **模块化的图像分割框架**：nnU-Net是快速有效开发分割方法的框架。受益于模块化结构，新的体系结构和方法可以很容易地集成到nnU-Net中，使得研究人员可以在一个标准化环境中推出和评估他们的修改。
 
 有关nnU-Net的更多信息，请阅读以下论文：
-
-    Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2020).
-    nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods, 1-9.
+```
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2020).
+nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods, 1-9.
+```
 
 
 ## 使用教程
@@ -50,7 +51,7 @@ UNet几乎是卷积神经网络在医学图像分割领域的基线模型，也�
 
 ### 详细的教程推荐
 
-如果你还想了解更详细的教程解析，请参考[ReadTheDocs教程](https://paddle-nnunet.readthedocs.io/) ，那里啥都有讲！可用性不够好？也请让我们知道！
+如果你还想了解更详细的教程解析，请参考[ReadTheDocs教程](https://paddle-nnunet.readthedocs.io/) ，这里啥都有讲！可用性不够好？也请让我们知道！
 
 ## 许可证书
 本项目的发布受Apache 2.0 license许可认证。
