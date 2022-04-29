@@ -2,8 +2,9 @@
 
 <div align="center">
 
+<p align="center">
 <img src="https://github.com/szuboy/paddle-nnUNet/blob/master/paddlennunet.png?raw=true" align="middle" width="420"/>
-
+</p>
 
 **飞桨nnUNet医学图像分割框架，端到端地完成模型的训练和测试全流程分割应用！**
 
