@@ -15,7 +15,7 @@ nnUNet 框架下包含了数据预处理、网络框架设计、预测结果后�
 不同于自然图像，医学图像含有着许多特有的属性信息，如：模态（X-ray、CT、MRI）、体素大小（SpacingSize）、窗宽窗位（Window Width and Widow Level），
 nnUnet 基于图像的这些“**指纹**”来自动推理预处理和网络参数，而这恰恰就是 nnUNet 最迷人的一个重要点，其工作流程：
 
-![流程图](_static/images/nnUNet-workflow.jpg "图1.nnUNet的工作流程")
+![](_static/images/nnUNet-workflow.jpg "图1.nnUNet的工作流程")
 
 给定一个新的分割任务，nnUNet 会提取“数据集指纹”（粉红色）；进而，根据“数据指纹”启发式推断的数据相关“基于规则的参数”（绿色）；
 最后，根据预定义的“固定参数”（蓝色）来确定训练和测试策略，并确定是否需要后处理的“经验参数”（黄色），自动完成全流程操作！
