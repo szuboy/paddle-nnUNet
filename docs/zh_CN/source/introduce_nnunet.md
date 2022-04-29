@@ -2,9 +2,9 @@
 
 ## 为什么是 nnUNet
 毫无疑问，UNet<sup>[1](#ref1)</sup> 几乎是卷积神经网络在医学图像分割领域的基线模型，也出现了许多 UNet 的改进版本，
-如：V-Net<sup>[2](#ref2)</sup>，UNet++<sup>[3](#ref3)</sup>，nnU-Net<sup>[4](#ref4)</sup>，U2-Net<sup>[5](#ref5)</sup> 等。
-但在所有改进版本中，nnUNet 作为是一种自适应框架，使用者只需要输入数据，nnUNet 动根据图像几何结构在网络架构、预训练、训练、推理方向上调整自身结构，
-实现全自动分割流程，取得许多分割任务的 SOTA，成为许多创新方法对比的又一个 baseline。
+如：V-Net<sup>[2](#ref2)</sup>，UNet++<sup>[3](#ref3)</sup>，nnU-Net<sup>[4](#ref4)</sup> 等。
+但在所有改进版本中，nnUNet 作为是一种自适应框架，使用者只需要输入数据，nnUNet 自动根据图像信息在网络架构、预训练、训练、推理方向上调整自身结构，
+实现全自动分割流程，取得许多分割任务的 SOTA，成为许多创新方法对比的一个代表性的基准。
 
 nnUNet 框架下包含了数据预处理、网络框架设计、预测结果后处理、参数自动推理，这是一个深度学习医学图像分割，
 甚至是医学图像处理的一个非常好的学习示例，如果你也想来入坑，那就让我们开始吧！
@@ -31,6 +31,5 @@ nnUnet 基于图像的这些“**指纹**”来自动推理预处理和网络参
 
 <span id='ref4'>[4] nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation.</span>
 
-<span id='ref5'>[5] U2-Net: A Bayesian U-Net Model with Epistemic Uncertainty Feedback for Photoreceptor Layer Segmentation in Pathological OCT Scans.</span>
 </div>
 
