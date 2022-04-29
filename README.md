@@ -17,19 +17,13 @@
 
 ## nnUNet
 
-UNet几乎是卷积神经网络在医学图像分割领域的基线模型，同样地出现了许多基于UNet的改进版本，比如：V-Net和UNet++。作为一个自适应框架，nnUNet无疑是在所有改进和优化模型中最成功的一个。nnUNet已经有[Pytorch版本](https://github.com/MIC-DKFZ/nnUNet) ，而这是对应的PaddlePaddle版本。如果想了解nnU-Net的更多信息，请阅读以下论文：
+UNet几乎是卷积神经网络在医学图像分割领域的基线模型，同样地出现了许多基于UNet的改进版本，比如：V-Net和UNet++。作为一个自适应框架，nnUNet无疑是所有改进和优化模型中最成功的一个。nnUNet已经有[Pytorch版本](https://github.com/MIC-DKFZ/nnUNet) ，而这是对应的PaddlePaddle版本。如果想了解nnU-Net的更多信息，请阅读发布的[论文](https://www.nature.com/articles/s41592-020-01008-z) 。
 
-```
-Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2020).
-nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature Methods, 1-9.
-```
-
-
-## 使用教程
-
-### 安装
+## 安装方式
 
 待补充
+
+## 使用教程
 
 ### 数据转换
 
