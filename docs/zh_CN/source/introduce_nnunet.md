@@ -2,7 +2,7 @@
 
 ## 为什么是 nnUNet
 毫无疑问，UNet<sup>[1](#ref1)</sup> 几乎是卷积神经网络在医学图像分割领域的基线模型，也出现了许多 UNet 的改进版本，
-如：V-Net<sup>[2](#ref2)</sup>，UNet++<sup>[3](#ref3)</sup>，nnU-Net<sup>[4](#ref4)</sup> 等。
+比如有：V-Net<sup>[2](#ref2)</sup>，UNet++<sup>[3](#ref3)</sup>，nnU-Net<sup>[4](#ref4)</sup> 等。
 但在所有改进版本中，nnUNet 作为是一种自适应框架，使用者只需要输入数据，nnUNet 自动根据图像信息在网络架构、预训练、训练、推理方向上调整自身结构，
 实现全自动分割流程，取得许多分割任务的 SOTA，成为许多创新方法对比的一个代表性的基准。
 
