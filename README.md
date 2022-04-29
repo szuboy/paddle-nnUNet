@@ -3,20 +3,21 @@
 <div align="center">
 
 <p align="center">
-<img src="https://github.com/szuboy/paddle-nnUNet/blob/master/paddlennunet.png?raw=true" align="middle" width="420"/>
+    <img src="https://github.com/szuboy/paddle-nnUNet/blob/master/paddlennunet.png?raw=true" align="middle" width="450"/>
 </p>
 
-**飞桨nnUNet医学图像分割框架，端到端地完成模型的训练和测试全流程分割应用！**
+**飞桨nnUNet医学图像分割框架，一个基于PaddlePaddle开发的nnUNet的版本！**
 
 ![Build Status](https://github.com/szuboy/paddle-nnUNet/actions/workflows/python-package.yml/badge.svg)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
 ![python version](https://img.shields.io/badge/python-3.0+-orange.svg)
 ![support os](https://img.shields.io/badge/os-linux%2C%20win%2C%20mac-yellow.svg)
+![PyPI Status](https://pepy.tech/badge/paddle-nnunet/month)
 </div>
 
 ## nnUNet
 
-UNet几乎是卷积神经网络在医学图像分割领域的基线模型，同样地出现了许多基于UNet的改进版本，比如：V-Net和UNet++。作为是一种自适应框架，nnUNet无疑是在所有改进和优化模型中最成功的一个。nnUNet已经有[Pytorch版本](https://github.com/MIC-DKFZ/nnUNet) ，而这是对应的飞桨版本。
+UNet几乎是卷积神经网络在医学图像分割领域的基线模型，同样地出现了许多基于UNet的改进版本，比如：V-Net和UNet++。作为一个自适应框架，nnUNet无疑是在所有改进和优化模型中最成功的一个。nnUNet已经有[Pytorch版本](https://github.com/MIC-DKFZ/nnUNet) ，而这是对应的飞桨版本，其功能特性包括有：
 
 * **标准化基线**：nnU-Net是生物医学分割中第一个标准化的深度学习基准。在没有人工调参的情况下，研究人员可以在任意数量的数据集上将他们的算法与nnU-Net进行比较，为提出的改进提供有意义的证据。
 
