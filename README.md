@@ -15,9 +15,9 @@
 ![PyPI Status](https://pepy.tech/badge/paddle-nnunet/month)
 </div>
 
-## nnUNet
+## 这是paddle-nnUNet
 
-UNet几乎是卷积神经网络在医学图像分割领域的基线模型，同样地出现了许多基于UNet的改进版本，比如：V-Net和UNet++。作为一个自适应框架，nnUNet无疑是所有改进和优化模型中最成功的一个。nnUNet已经有[Pytorch版本](https://github.com/MIC-DKFZ/nnUNet) ，而这是对应的PaddlePaddle版本。如果想了解nnU-Net的更多信息，请阅读发布的[论文](https://www.nature.com/articles/s41592-020-01008-z) 。
+UNet几乎是卷积神经网络在医学图像分割领域的基线模型，同样地出现了许多基于UNet的改进版本，比如：V-Net和UNet++。作为一个自适应框架，nnUNet无疑是所有改进和优化模型中最成功的一个。nnUNet已经有[Pytorch版本](https://github.com/MIC-DKFZ/nnUNet) ，而这是对应的`PaddlePaddle`版本。如果想了解nnU-Net的更多信息，请阅读发布的[论文](https://www.nature.com/articles/s41592-020-01008-z) 。
 
 ## 安装方式
 
