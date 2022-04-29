@@ -6,7 +6,7 @@
     <img src="https://github.com/szuboy/paddle-nnUNet/blob/master/paddlennunet.png?raw=true" align="middle" width="450"/>
 </p>
 
-**飞桨nnUNet医学图像分割框架，一个基于PaddlePaddle开发的nnUNet的版本！**
+**飞桨nnUNet医学图像分割框架，一个基于PaddlePaddle开发的nnUNet翻译版本！**
 
 ![Build Status](https://github.com/szuboy/paddle-nnUNet/actions/workflows/python-package.yml/badge.svg)
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
