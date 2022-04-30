@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](LICENSE)
 ![python version](https://img.shields.io/badge/python-3.0+-orange.svg)
 ![support os](https://img.shields.io/badge/os-linux%2C%20win%2C%20mac-yellow.svg)
-![PyPI Status](https://pepy.tech/badge/paddle-nnunet/month)
+![PyPI Status](https://img.shields.io/pypi/dm/paddle-nnunet?color=9cf)
 </div>
 
 ## 这是paddle-nnUNet
