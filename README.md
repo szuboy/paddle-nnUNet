@@ -50,7 +50,7 @@ Hello from the paddle-nnUNet. https://paddle-nnunet.readthedocs.io
 ```
 如果看到上述输出打印信息：则说明安装成功；如果没有，需要检查是不是`paddlepaddle`版本问题或者是环境问题引起安装失败。
 
-## 使用教程
+## 快速使用
 
 ### 数据转换
 
