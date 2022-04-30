@@ -21,34 +21,24 @@ UNet几乎是卷积神经网络在医学图像分割领域的最为成功的模�
 
 ## 安装方式
 
-由于nnUNet采用动态图自动构建的，安装之前请确保飞桨框架版本大于`2.0`版本。我们的安装方法有两种:
+由于nnUNet采用动态图自动构建的，安装之前请确保飞桨框架版本大于`2.0`版本。同时，Python 2不受支持，请确保您使用的是 Python 3，安装方法有两种:
 
-**1、使用 PyPi 安装 paddle-nnUNet(推荐)**
+* 用作**标准化基线、开箱即用的分割算法**或使用预训练模型运行**推理**：
 
-```
-pip install paddle-nnUNet
-```
+    ```
+    pip install paddle-nnUNet
+    ```
 
-**2、使用 paddle-nnUNet 源码安装**
+* 用作集成**框架**（这将会创建nnU-Net代码的副本，以便根据需要对其进行修改）：
 
-首先，使用 ```git``` 来克隆 paddle-nnUNet
-```
-git clone https://github.com/szuboy/paddle-nnUNet.git
-```
-然后，```cd``` 到 paddle-nnUNet 的文件夹
-```
-cd paddle-nnUNet
-```
-最后，运行安装命令
-```
-python setup.py install
-```
+    ```
+    git clone https://github.com/szuboy/paddle-nnUNet.git
+    cd padle-nnUNet
+    python install -e .
+    ```
 
-可通过`import paddlennunet`验证是否安装成功
-```
-Hello from the paddle-nnUNet. https://paddle-nnunet.readthedocs.io
-```
-如果看到上述输出打印信息：则说明安装成功；如果没有，需要检查是不是`paddlepaddle`版本问题或者是环境问题引起安装失败。
+请注意，这些命令只是执行Python脚本，如果是在虚拟环境中安装了nnU-Net，则在执行命令时必须激活此环境。
+
 
 ## 快速使用
 
